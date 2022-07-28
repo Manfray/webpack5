@@ -10,7 +10,8 @@
     "webpack-cli": "^4.10.0"
   },
   "scripts": {
-    "test": "webpack"
+    "test": "webpack",
+    "debug": "node --inspect-brk ./node_modules/webpack-cli/bin/cli.js"
   },
   "author": "Manfray",
   "license": "ISC"
