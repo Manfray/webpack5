@@ -1,5 +1,6 @@
 // Node.js的核心模块，专门用来处理文件路径
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   // 入口
@@ -19,7 +20,11 @@ module.exports = {
     rules: [],
   },
   // 插件
-  plugins: [],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, 'public/index.html')
+    })
+  ],
   // 模式
   mode: "development", // 开发模式
 };
