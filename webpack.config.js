@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const TestPlugin = require("./plugins/TestPlugin");
 const BannerWebpackPlugin = require("./plugins/BannerWebpackPlugin");
 const BuildTagPlugin = require("./plugins/BuildTagPlugin");
+const pakeageInfo = require('./package.json')
 
 module.exports = {
   // 入口
@@ -29,7 +30,8 @@ module.exports = {
     }),
     // new TestPlugin()
     new BuildTagPlugin({
-      author: '张三三'
+      author: '张三三',
+      version: pakeageInfo.version
     })
   ],
   // 模式
