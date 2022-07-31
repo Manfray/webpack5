@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_m1__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/m1 */ \"./src/modules/m1.js\");\n/* harmony import */ var _modules_m1__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_m1__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_m2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/m2 */ \"./src/modules/m2.js\");\n\r\n\r\nfunction add(x, y) {\r\n  return x + y\r\n}\r\nconsole.log(add(1, 4))\r\nconsole.log((_modules_m1__WEBPACK_IMPORTED_MODULE_0___default()))\r\nconsole.log(_modules_m2__WEBPACK_IMPORTED_MODULE_1__.m2)\n\n//# sourceURL=webpack://webpack5/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_m1__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/m1 */ \"./src/modules/m1.js\");\n/* harmony import */ var _modules_m1__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_m1__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_m2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/m2 */ \"./src/modules/m2.js\");\n\n\nfunction add(x, y) {\n  return x + y\n}\nconsole.log(add(1, 4))\nconsole.log((_modules_m1__WEBPACK_IMPORTED_MODULE_0___default()))\nconsole.log(_modules_m2__WEBPACK_IMPORTED_MODULE_1__.m2)\n\n//# sourceURL=webpack://webpack5/./src/index.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mod
   \***************************/
 /***/ ((module) => {
 
-eval("module.exports = {\r\n  name: 'm1'\r\n}\n\n//# sourceURL=webpack://webpack5/./src/modules/m1.js?");
+eval("module.exports = {\n  name: 'm1'\n}\n\n//# sourceURL=webpack://webpack5/./src/modules/m1.js?");
 
 /***/ }),
 
@@ -37,7 +37,7 @@ eval("module.exports = {\r\n  name: 'm1'\r\n}\n\n//# sourceURL=webpack://webpack
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"m2\": () => (/* binding */ m2)\n/* harmony export */ });\nconst m2 = {\r\n  name: 'm2'\r\n}\n\n//# sourceURL=webpack://webpack5/./src/modules/m2.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"m2\": () => (/* binding */ m2)\n/* harmony export */ });\nconst m2 = {\n  name: 'm2'\n}\n\n//# sourceURL=webpack://webpack5/./src/modules/m2.js?");
 
 /***/ })
 

@@ -2,6 +2,8 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const TestPlugin = require("./plugins/TestPlugin");
+const BannerWebpackPlugin = require("./plugins/BannerWebpackPlugin");
+const BuildTagPlugin = require("./plugins/BuildTagPlugin");
 
 module.exports = {
   // 入口
@@ -25,7 +27,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'public/index.html')
     }),
-    new TestPlugin()
+    // new TestPlugin()
+    new BuildTagPlugin({
+      author: '张三三'
+    })
   ],
   // 模式
   mode: "development", // 开发模式
