@@ -24,14 +24,15 @@ class BuildTagPlugin {
       // 获取版本号
 
       // 获取编译入参
-      const { version, author } = this.options
+      const { version, author, description } = this.options
 
       // 拼接插入内容
       const insertContent = `
   <!--
     app-version: ${version || '-'};
     app-author: ${author || '-'};
-    build-time: ${formatDateStr}
+    description: ${description};
+    build-time: ${formatDateStr};
   -->`
 
 

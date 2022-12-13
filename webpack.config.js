@@ -31,7 +31,8 @@ module.exports = {
     // new TestPlugin()
     new BuildTagPlugin({
       author: '张三三',
-      version: pakeageInfo.version
+      version: pakeageInfo.version,
+      description: pakeageInfo.description,
     })
   ],
   // 模式
